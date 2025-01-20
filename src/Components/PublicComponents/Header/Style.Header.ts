@@ -16,6 +16,7 @@ export const LogoContainer = styled.div`
 	width: 153px;
 	height: 46px;
 	background-image: url(${LogoImg});
+	cursor: pointer;
 `
 
 export const MenuContainer = styled.div`
@@ -23,6 +24,9 @@ export const MenuContainer = styled.div`
 	display: flex;
 	justify-content: space-between;
 	color: white;
+	span {
+		cursor: pointer;
+	}
 `
 
 export const SocialNetwork = styled.div`
@@ -35,10 +39,12 @@ export const YouTube = styled.div`
 	width: 36px;
 	height: 36px;
 	background-image: url(${YouTubeImg});
+	cursor: pointer;
 `
 
 export const VK = styled.div`
 	width: 36px;
 	height: 36px;
 	background-image: url(${VKImg});
+	cursor: pointer;
 `

@@ -22,6 +22,9 @@ export const MenuContainer = styled.div`
 	display: flex;
 	justify-content: space-between;
 	font-size: 14px;
+	span {
+		cursor: pointer;
+	}
 `
 
 export const SocialNetwork = styled.div`
@@ -34,15 +37,18 @@ export const YouTube = styled.div`
 	width: 36px;
 	height: 36px;
 	background-image: url(${YouTubeImg});
+	cursor: pointer;
 `
 
 export const VK = styled.div`
 	width: 36px;
 	height: 36px;
 	background-image: url(${VKImg});
+	cursor: pointer;
 `
 export const TG = styled.div`
 	width: 36px;
 	height: 36px;
 	background-image: url(${TGImg});
+	cursor: pointer;
 `
